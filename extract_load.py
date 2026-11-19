@@ -20,8 +20,8 @@ from google.cloud import bigquery
 NEON_CONNECTION_STRING = os.environ["NEON_CONNECTION_STRING"]
 BQ_PROJECT_ID = os.environ["BQ_PROJECT_ID"]
 BQ_DATASET = os.environ["BQ_DATASET"]
-BQ_TABLE = os.environ["BQ_TABLE"]
-
+#BQ_TABLE = os.environ["BQ_TABLE"]
+BQ_TABLE = "Orders"
 # TODO: nazwa tabeli źródłowej w Neon (ta, którą wypełnialiście w Lab 1)
 SOURCE_TABLE = "orders"
 
