@@ -21,9 +21,9 @@ NEON_CONNECTION_STRING = os.environ["NEON_CONNECTION_STRING"]
 BQ_PROJECT_ID = os.environ["BQ_PROJECT_ID"]
 BQ_DATASET = os.environ["BQ_DATASET"]
 #BQ_TABLE = os.environ["BQ_TABLE"]
-BQ_TABLE = "Orders"
+BQ_TABLE = "Order_items"
 # TODO: nazwa tabeli źródłowej w Neon (ta, którą wypełnialiście w Lab 1)
-SOURCE_TABLE = "orders"
+SOURCE_TABLE = "order_items"
 
 # TODO: kolumna używana do wykrywania nowych/zmienionych wierszy przy incremental load
 INCREMENTAL_COLUMN = "updated_at"
